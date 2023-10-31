@@ -1,0 +1,24 @@
+body{
+    background-image: url(./img/8-Ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this to your desired height */
+  }
+  
+  .image {
+    max-width: 100%; /* Ensures the image doesn't exceed the container width */
+    max-height: 100%; /* Ensures the image doesn't exceed the container height */
+  }
+  #displayQuestion{
+    text-align: center;
+    line-height: 40;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 235, 7);
+  }
